@@ -24,8 +24,10 @@ library(lmtest)
 ```
 
 ```{r}
-chq <- read_excel("C:/Users/mirra/OneDrive/Documents/MHQuestionnaires/CHQ_dataset_040925.xlsx")
-OV_data <- read_excel("C:/Users/mirra/OneDrive/Documents/PBBThesis/Ovcysts_dataset_110425.xlsx")
+#chq <- read_excel("C:/Users/mirra/OneDrive/Documents/MHQuestionnaires/CHQ_dataset_040925.xlsx")
+#OV_data <- read_excel("C:/Users/mirra/OneDrive/Documents/PBBThesis/Ovcysts_dataset_110425.xlsx")
+chq <- read_excel("data/CHQ_dataset_040925.xlsx")
+OV_data <- read_excel("data/Ovcysts_dataset_110425.xlsx")
 
 OV_data <- OV_data %>%
   rename(INDIVIDUAL_ID = Individual_ID) %>%
