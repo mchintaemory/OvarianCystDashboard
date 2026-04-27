@@ -459,9 +459,11 @@ Row {data-height=180}
 ### Github link {data-width=50}
 ```{r}
 renderUI({
-  HTML(paste0(
-    "https://github.com/mchintaemory/OvarianCystDashboard"
-  ))
+  HTML(
+    '<a href="https://github.com/mchintaemory/OvarianCystDashboard" target="_blank">
+       View GitHub Repository
+     </a>'
+  )
 })
 
 ```
