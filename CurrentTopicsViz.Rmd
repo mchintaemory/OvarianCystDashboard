@@ -271,8 +271,8 @@ renderPlotly({
         )
       ),
       xaxis = list(
-        title = "Prevalence Ratio",
-        type = "log"
+  title = "Prevalence Ratio",
+  range = c(0, max(forest_df$highCI, na.rm = TRUE) * 1.1)
       ),
       yaxis = list(title = ""),
       shapes = list(
@@ -450,5 +450,15 @@ renderUI({
   ))
 })
 ```
+Row {data-height=180}
+-----------------------------------------------------------------------
+### Github link {data-width=50}
+```{r}
+renderUI({
+  HTML(paste0(
+    "https://github.com/mchintaemory/OvarianCystDashboard"
+  ))
+})
 
+```
 
