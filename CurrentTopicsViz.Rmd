@@ -140,7 +140,7 @@ selectInput(
   selected = "PBB"
 )
 ```
-Row
+
 Forest Plot
 ```{r}
 renderPlotly({
@@ -290,8 +290,8 @@ renderPlotly({
     )
 })
 ```
-Row
-Spline Plot {data-width=50}
+
+Spline Plot
 ```{r}
 renderPlotly({
 
